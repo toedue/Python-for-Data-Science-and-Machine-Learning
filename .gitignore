@@ -1,4 +1,3 @@
-cat >> .gitignore <<'EOF'
 # Python environments
 env/
 .venv/
@@ -13,4 +12,3 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
-EOF
