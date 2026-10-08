@@ -1,0 +1,16 @@
+cat >> .gitignore <<'EOF'
+# Python environments
+env/
+.venv/
+venv/
+
+# Large datasets
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+EOF
